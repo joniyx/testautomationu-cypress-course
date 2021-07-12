@@ -6,13 +6,13 @@ describe('visual validation', () => {
 
   beforeEach(() =>
     cy.eyesOpen({
-      appName: 'TAU TodoMVC',
-      batchName: 'TAU TodoMVC',
+      appName: 'Demo Visual Test',
+      batchName: 'Release 2.10',
       browser: [
         {name: 'chrome', width: 1024, height: 768},
         {name: 'chrome', width: 800, height: 600},
         {name: 'firefox', width: 1024, height: 768},
-        {deviceName: 'iPhone X'},
+        // {deviceName: 'iPhone X'},
       ]
     })
   )
